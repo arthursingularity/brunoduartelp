@@ -178,6 +178,52 @@ function Home() {
                         </div>
                     </div>
 
+                    <div className="DivAntesDepois text-center mt-10">
+                        <p className="text-[30px] font-medium -mb-3 text-white">Resultados <span className="text-bgreen">reais</span></p>
+                        <p className="text-[26.5px] font-light mb-4 text-white">das minhas alunas</p>
+                        <div className="relative max-w-[700px] mx-auto flex items-center justify-center">
+                            {/* Botão voltar */}
+                            <button
+                                onClick={prevSlide}
+                                className="absolute left-0 z-20 bg-neutral-700/50 hover:bg-neutral-700 text-white rounded-full p-2"
+                            >
+                                &#8592;
+                            </button>
+
+                            {/* Imagens Antes e Depois */}
+                            <div className="overflow-hidden rounded-[16px] bg-neutral-800 p-3">
+                                <div className="flex space-x-4">
+                                    <div className="w-[300px] h-[400px] relative">
+                                        <img
+                                            src={current.antes}
+                                            alt={`Antes de ${current.nome}`}
+                                            className="w-full h-full object-cover rounded-[8px]"
+                                        />
+                                        <p className="absolute bottom-0 left-0 w-full bg-neutral-600 text-white text-center py-1 rounded-b-[6px]">Antes</p>
+                                    </div>
+                                    <div className="w-[300px] h-[400px] relative">
+                                        <img
+                                            src={current.depois}
+                                            alt={`Depois de ${current.nome}`}
+                                            className="w-full h-full object-cover rounded-[8px]"
+                                        />
+                                        <p className="absolute bottom-0 left-0 w-full bg-neutral-600 text-white text-center py-1 rounded-b-[6px]">Depois</p>
+                                    </div>
+                                </div>
+                                <div className='text-center mt-4'>
+                                    <button className='buttonHover bg-verde p-3 w-[80%] max-w-[400px] rounded-[8px] text-black text-[18px] font-medium'>Quero transformar o meu corpo</button>
+                                </div>
+                            </div>
+
+                            {/* Botão avançar */}
+                            <button
+                                onClick={nextSlide}
+                                className="absolute right-0 z-20 bg-neutral-700/50 hover:bg-neutral-700 text-white rounded-full p-2"
+                            >
+                                &#8594;
+                            </button>
+                        </div>
+                    </div>
 
 
                     <div className='pb-8'>
@@ -214,7 +260,6 @@ function Home() {
                                                 alt='Antes'
                                             />
                                         </div>
-                                        <p className='bg-neutral-500 p-1 py-1.5 text-center font-medium text-[15px]'>Antes</p>
                                     </div>
                                     <div className='absolute z-50'>
                                     </div>
@@ -347,32 +392,32 @@ function Home() {
                                 </div>
                                 <div className='space-y-2 p-3 text-neutral-200 text-left'>
                                     <div className='flex items-center space-x-2'>
-                                        <span className='material-symbols-outlined text-[28px] text-verde'>check</span>
+                                        <img className="w-[30px]" src="./imagens/check.png" />
                                         <p className='leading-[20px]'>App de acesso aos treinos</p>
                                     </div>
                                     <hr className='border-1 border-neutral-700' />
                                     <div className='flex items-center space-x-2'>
-                                        <span className='material-symbols-outlined text-[28px] text-verde'>check</span>
+                                        <img className="w-[30px]" src="./imagens/check.png" />
                                         <p className='leading-[20px]'>Planilha personalizada de Treinos</p>
                                     </div>
                                     <hr className='border-1 border-neutral-700' />
                                     <div className='flex items-center space-x-2'>
-                                        <span className='material-symbols-outlined text-[28px] text-verde'>check</span>
+                                        <img className="w-[30px]" src="./imagens/check.png" />
                                         <p className='leading-[20px]'>Vídeos dos exercícios</p>
                                     </div>
                                     <hr className='border-1 border-neutral-700' />
                                     <div className='flex items-center space-x-2'>
-                                        <span className='material-symbols-outlined text-[28px] text-verde'>check</span>
+                                        <img className="w-[30px]" src="./imagens/check.png" />
                                         <p className='leading-[20px]'>2 treinos trocados a cada 45 dias</p>
                                     </div>
                                     <hr className='border-1 border-neutral-700' />
                                     <div className='flex items-center space-x-2'>
-                                        <span className='material-symbols-outlined text-[28px] text-verde'>check</span>
+                                        <img className="w-[30px]" src="./imagens/check.png" />
                                         <p className='leading-[20px]'>Suporte diretamente comigo via whatsapp.</p>
                                     </div>
                                     <hr className='border-1 border-neutral-700' />
                                     <div className='flex items-center space-x-2'>
-                                        <span className='material-symbols-outlined text-[28px] text-red-500'>close</span>
+                                        <img className="w-[30px]" src="./imagens/close.png" />
                                         <p className='leading-[20px]'>E-book completo de emagrecimento</p>
                                     </div>
                                 </div>
@@ -389,32 +434,32 @@ function Home() {
                                 </div>
                                 <div className='space-y-2 p-3 text-neutral-200 text-left'>
                                     <div className='flex items-center space-x-2'>
-                                        <span className='material-symbols-outlined text-[28px] text-verde'>check</span>
+                                        <img className="w-[30px]" src="./imagens/check.png" />
                                         <p className='leading-[20px]'>App de acesso aos treinos</p>
                                     </div>
                                     <hr className='border-1 border-neutral-700' />
                                     <div className='flex items-center space-x-2'>
-                                        <span className='material-symbols-outlined text-[28px] text-verde'>check</span>
+                                        <img className="w-[30px]" src="./imagens/check.png" />
                                         <p className='leading-[20px]'>Planilha personalizada de Treinos</p>
                                     </div>
                                     <hr className='border-1 border-neutral-700' />
                                     <div className='flex items-center space-x-2'>
-                                        <span className='material-symbols-outlined text-[28px] text-verde'>check</span>
+                                        <img className="w-[30px]" src="./imagens/check.png" />
                                         <p className='leading-[20px]'>Vídeos dos exercícios</p>
                                     </div>
                                     <hr className='border-1 border-neutral-700' />
                                     <div className='flex items-center space-x-2'>
-                                        <span className='material-symbols-outlined text-[28px] text-verde'>check</span>
+                                        <img className="w-[30px]" src="./imagens/check.png" />
                                         <p className='leading-[20px]'><span className="font-medium text-white">4 treinos</span> trocados a cada 45 dias</p>
                                     </div>
                                     <hr className='border-1 border-neutral-700' />
                                     <div className='flex items-center space-x-2'>
-                                        <span className='material-symbols-outlined text-[28px] text-verde'>check</span>
+                                        <img className="w-[30px]" src="./imagens/check.png" />
                                         <p className='leading-[20px]'>Suporte diretamente comigo via whatsapp.</p>
                                     </div>
                                     <hr className='border-1 border-neutral-700' />
                                     <div className='flex items-center space-x-2'>
-                                        <span className='material-symbols-outlined text-[28px] text-verde'>check</span>
+                                        <img className="w-[30px]" src="./imagens/check.png" />
                                         <p className='leading-[20px]'>E-book completo de emagrecimento</p>
                                     </div>
                                 </div>
@@ -431,32 +476,32 @@ function Home() {
                                 </div>
                                 <div className='space-y-2 p-3 text-neutral-200 text-left'>
                                     <div className='flex items-center space-x-2'>
-                                        <span className='material-symbols-outlined text-[28px] text-verde'>check</span>
+                                        <img className="w-[30px]" src="./imagens/check.png" />
                                         <p className='leading-[20px]'>App de acesso aos treinos</p>
                                     </div>
                                     <hr className='border-1 border-neutral-700' />
                                     <div className='flex items-center space-x-2'>
-                                        <span className='material-symbols-outlined text-[28px] text-verde'>check</span>
+                                        <img className="w-[30px]" src="./imagens/check.png" />
                                         <p className='leading-[20px]'>Planilha personalizada de Treinos</p>
                                     </div>
                                     <hr className='border-1 border-neutral-700' />
                                     <div className='flex items-center space-x-2'>
-                                        <span className='material-symbols-outlined text-[28px] text-verde'>check</span>
+                                        <img className="w-[30px]" src="./imagens/check.png" />
                                         <p className='leading-[20px]'>Vídeos dos exercícios</p>
                                     </div>
                                     <hr className='border-1 border-neutral-700' />
                                     <div className='flex items-center space-x-2'>
-                                        <span className='material-symbols-outlined text-[28px] text-verde'>check</span>
+                                        <img className="w-[30px]" src="./imagens/check.png" />
                                         <p className='leading-[20px]'><span className="font-medium text-white">8 treinos</span> trocados a cada 45 dias</p>
                                     </div>
                                     <hr className='border-1 border-neutral-700' />
                                     <div className='flex items-center space-x-2'>
-                                        <span className='material-symbols-outlined text-[28px] text-verde'>check</span>
+                                        <img className="w-[30px]" src="./imagens/check.png" />
                                         <p className='leading-[20px]'>Suporte diretamente comigo via whatsapp.</p>
                                     </div>
                                     <hr className='border-1 border-neutral-700' />
                                     <div className='flex items-center space-x-2'>
-                                        <span className='material-symbols-outlined text-[28px] text-verde'>check</span>
+                                        <img className="w-[30px]" src="./imagens/check.png" />
                                         <p className='leading-[20px]'>E-book completo de emagrecimento</p>
                                     </div>
                                 </div>
