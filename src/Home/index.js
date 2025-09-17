@@ -118,7 +118,7 @@ function Home() {
                         <div className='flex justify-center mt-7'>
                             <video
                                 className="bg-neutral-900 rounded-lg w-[900px] border border-neutral-600"
-                                src="./imagens/0904.mp4"
+                                src="https://res.cloudinary.com/dgtnur9y1/video/upload/v1758150449/0904_fqzqe9.mp4"
                                 poster="./imagens/thumb.JPEG"
                                 controls
                                 playsInline
@@ -178,7 +178,7 @@ function Home() {
                         </div>
                     </div>
 
-                    
+
 
                     <div className='pb-8'>
                         <div className='leading-[30px]'>
@@ -362,12 +362,12 @@ function Home() {
                                     </div>
                                     <hr className='border-1 border-neutral-700' />
                                     <div className='flex items-center space-x-2'>
-                                    <span className='material-symbols-outlined text-[28px] text-verde'>check</span>
+                                        <span className='material-symbols-outlined text-[28px] text-verde'>check</span>
                                         <p className='leading-[20px]'>2 treinos trocados a cada 45 dias</p>
                                     </div>
                                     <hr className='border-1 border-neutral-700' />
                                     <div className='flex items-center space-x-2'>
-                                    <span className='material-symbols-outlined text-[28px] text-verde'>check</span>
+                                        <span className='material-symbols-outlined text-[28px] text-verde'>check</span>
                                         <p className='leading-[20px]'>Suporte diretamente comigo via whatsapp.</p>
                                     </div>
                                     <hr className='border-1 border-neutral-700' />
@@ -404,12 +404,12 @@ function Home() {
                                     </div>
                                     <hr className='border-1 border-neutral-700' />
                                     <div className='flex items-center space-x-2'>
-                                    <span className='material-symbols-outlined text-[28px] text-verde'>check</span>
+                                        <span className='material-symbols-outlined text-[28px] text-verde'>check</span>
                                         <p className='leading-[20px]'><span className="font-medium text-white">4 treinos</span> trocados a cada 45 dias</p>
                                     </div>
                                     <hr className='border-1 border-neutral-700' />
                                     <div className='flex items-center space-x-2'>
-                                    <span className='material-symbols-outlined text-[28px] text-verde'>check</span>
+                                        <span className='material-symbols-outlined text-[28px] text-verde'>check</span>
                                         <p className='leading-[20px]'>Suporte diretamente comigo via whatsapp.</p>
                                     </div>
                                     <hr className='border-1 border-neutral-700' />
@@ -446,12 +446,12 @@ function Home() {
                                     </div>
                                     <hr className='border-1 border-neutral-700' />
                                     <div className='flex items-center space-x-2'>
-                                    <span className='material-symbols-outlined text-[28px] text-verde'>check</span>
+                                        <span className='material-symbols-outlined text-[28px] text-verde'>check</span>
                                         <p className='leading-[20px]'><span className="font-medium text-white">8 treinos</span> trocados a cada 45 dias</p>
                                     </div>
                                     <hr className='border-1 border-neutral-700' />
                                     <div className='flex items-center space-x-2'>
-                                    <span className='material-symbols-outlined text-[28px] text-verde'>check</span>
+                                        <span className='material-symbols-outlined text-[28px] text-verde'>check</span>
                                         <p className='leading-[20px]'>Suporte diretamente comigo via whatsapp.</p>
                                     </div>
                                     <hr className='border-1 border-neutral-700' />
