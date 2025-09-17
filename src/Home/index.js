@@ -138,37 +138,37 @@ function Home() {
                         <div className='flex justify-center max-w-[600px] mx-auto'>
                             <div className='mt-5 space-y-4 border border-neutral-700 p-4 rounded-[16px] text-white'>
                                 <div className='flex items-center space-x-2'>
-                                    <span className='material-symbols-outlined text-[35px] text-verde'>check</span>
+                                    <img className="w-[40px]" src="./imagens/check.png" />
                                     <p className='leading-[20px]'>Quer emagrecer ou definir <span className='font-regular text-bgreen'>sem passar fome</span> ou ganhar massa muscular <span className='font-regular text-bgreen'>sem comer demais.</span></p>
                                 </div>
                                 <hr className='border-1 border-neutral-700' />
                                 <div className='flex items-center space-x-2'>
-                                    <span className='material-symbols-outlined text-[35px] text-verde'>check</span>
+                                    <img className="w-[40px]" src="./imagens/check.png" />
                                     <p className='leading-[20px]'>Quer um corpo mais <span className='font-regular text-bgreen'>bonito</span>, mas também mais <span className='font-regular text-bgreen'>saudável e forte.</span></p>
                                 </div>
                                 <hr className='border-1 border-neutral-700' />
                                 <div className='flex items-center space-x-2'>
-                                    <span className='material-symbols-outlined text-[35px] text-verde'>check</span>
+                                    <img className="w-[40px]" src="./imagens/check.png" />
                                     <p className='leading-[20px]'>Já treina, mas <span className='font-regular text-bgreen'>parou de evoluir.</span></p>
                                 </div>
                                 <hr className='border-1 border-neutral-700' />
                                 <div className='flex items-center space-x-2'>
-                                    <span className='material-symbols-outlined text-[35px] text-verde'>check</span>
+                                    <img className="w-[40px]" src="./imagens/check.png" />
                                     <p className='leading-[20px]'><span className='font-regular text-bgreen'>Já tentou sozinha</span>, mas não conseguiu manter os resultados.</p>
                                 </div>
                                 <hr className='border-1 border-neutral-700' />
                                 <div className='flex items-center space-x-2'>
-                                    <span className='material-symbols-outlined text-[35px] text-verde'>check</span>
+                                    <img className="w-[40px]" src="./imagens/check.png" />
                                     <p className='leading-[20px]'>Está cansada de <span className='font-regular text-bgreen'>treinos prontos</span> que não funcionam pra você.</p>
                                 </div>
                                 <hr className='border-1 border-neutral-700' />
                                 <div className='flex items-center space-x-2'>
-                                    <span className='material-symbols-outlined text-[35px] text-verde'>check</span>
+                                    <img className="w-[40px]" src="./imagens/check.png" />
                                     <p className='leading-[20px]'>Precisa de alguém que te <span className='font-regular text-bgreen'>acompanhe de verdade</span>, passo a passo.</p>
                                 </div>
                                 <hr className='border-1 border-neutral-700' />
                                 <div className='flex items-center space-x-2'>
-                                    <span className='material-symbols-outlined text-[35px] text-verde'>check</span>
+                                    <img className="w-[40px]" src="./imagens/check.png" />
                                     <p className='leading-[20px]'>Quer criar hábitos saudáveis <span className='font-regular text-bgreen'>mesmo com a rotina puxada.</span></p>
                                 </div>
                             </div>
