@@ -246,15 +246,15 @@ function Home() {
                                         <div className='relative w-full max-h-[380px] xl:max-h-[580px] bg-neutral-500 overflow-hidden flex justify-center items-center'>
                                             <span
                                                 onClick={prevSlide2}
-                                                className='material-symbols-outlined z-20 left-1 bg-neutral-500 rounded p-[2px] absolute text-bgreen text-[23px] cursor-pointer hover:brightness-90 transition'
+                                                className='z-20 left-1 bg-neutral-500 rounded p-[2px] absolute cursor-pointer buttonHover'
                                             >
-                                                arrow_back
+                                                <img className="w-[25px]" src="./imagens/setaesq.png" />
                                             </span>
                                             <span
                                                 onClick={nextSlide2}
-                                                className='material-symbols-outlined z-20 right-1 bg-neutral-500 rounded p-[2px] absolute text-bgreen text-[23px] cursor-pointer hover:brightness-90 transition'
+                                                className='z-20 right-1 bg-neutral-500 rounded p-[2px] absolute cursor-pointer hover:brightness-90 transition'
                                             >
-                                                arrow_forward
+                                                <img className="w-[25px]" src="./imagens/setadir.png" />
                                             </span>
                                             <img
                                                 src='./imagens/logo.png'
