@@ -30,20 +30,24 @@ const slides = [
 
 const prints = [
     {
-        nome: 'p3',
-        antes: '/imagens/p3-1.jpeg',
-    },
-    {
-        nome: 'p3',
-        antes: '/imagens/p3-2.jpeg',
-    },
-    {
         nome: 'p1',
-        antes: '/imagens/p1-1.jpeg',
+        print: '/imagens/print1.jpeg',
     },
     {
-        nome: 'p1',
-        antes: '/imagens/p1-2.jpeg',
+        nome: 'p2',
+        print: '/imagens/print2.jpeg',
+    },
+    {
+        nome: 'p3',
+        print: '/imagens/print3.jpeg',
+    },
+    {
+        nome: 'p4',
+        print: '/imagens/print4.jpeg',
+    },
+    {
+        nome: 'p5',
+        print: '/imagens/print5.jpeg',
     },
 ];
 
@@ -262,7 +266,7 @@ function Home() {
                                                 alt='Logo'
                                             />
                                             <img
-                                                src={current2.antes}
+                                                src={current2.print}
                                                 className='w-full h-full object-cover'
                                                 alt='Antes'
                                             />
