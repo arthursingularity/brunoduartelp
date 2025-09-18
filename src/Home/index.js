@@ -154,12 +154,12 @@ function Home() {
                                 <hr className='border-1 border-neutral-700' />
                                 <div className='flex items-center space-x-2'>
                                     <img className="w-[40px]" src="./imagens/check.png" />
-                                    <p className='leading-[20px]'><span className='font-regular text-bgreen'>Já tentou sozinha</span>, mas não conseguiu manter os resultados.</p>
+                                    <p className='leading-[20px]'><span className='font-regular text-bgreen'>Já tentou sozinho(a)</span>, mas não conseguiu manter os resultados.</p>
                                 </div>
                                 <hr className='border-1 border-neutral-700' />
                                 <div className='flex items-center space-x-2'>
                                     <img className="w-[40px]" src="./imagens/check.png" />
-                                    <p className='leading-[20px]'>Está cansada de <span className='font-regular text-bgreen'>treinos prontos</span> que não funcionam pra você.</p>
+                                    <p className='leading-[20px]'>Está cansado(a) de <span className='font-regular text-bgreen'>treinos prontos</span> que não funcionam pra você.</p>
                                 </div>
                                 <hr className='border-1 border-neutral-700' />
                                 <div className='flex items-center space-x-2'>
@@ -180,10 +180,10 @@ function Home() {
 
                     <div className="flex justify-center">
                         <div className="DivAntesDepois text-center mt-10 relative rounded-[16px] bg-neutral-800 max-w-[600px] mx-auto">
-                            <p className="text-[30px] font-medium -mb-3 pt-5 text-white">
+                            <p className="text-[30px] font-medium -mb-2 pt-5 text-white">
                                 Resultados <span className="text-bgreen">reais</span>
                             </p>
-                            <p className="text-[26.5px] font-light mb-4 text-white">das minhas alunas</p>
+                            <p className="text-[26.5px] font-light mb-4 text-white">dos meus aluno(a)s</p>
 
                             <div className="relative flex items-center justify-center">
                                 {/* Botão voltar */}
@@ -387,7 +387,7 @@ function Home() {
                         <p className='text-[30px] font-medium text-center pb-4'>Planos disponíveis</p>
                         <hr className='border-1 border-neutral-700' />
                         <p className="text-[18px] font-light mt-4 mb-4">
-                            <span className="text-yellow-400 font-medium">⚠️ Atenção:</span> após finalizar a compra, <span className="font-medium text-red-500">não feche a página.</span> Você será redirecionado para responder a anamnese.
+                            <span className="text-yellow-400 font-medium">⚠️ Atenção:</span> após finalizar a compra, <span className="font-medium text-red-500">não feche a página.</span> Você será redirecionado(a) para responder a anamnese.
                         </p>
                         <hr className='border-1 border-neutral-700' />
                         <div className='space-y-4 mt-6 lg:flex lg:space-x-4 lg:justify-center lg:space-y-0'>
