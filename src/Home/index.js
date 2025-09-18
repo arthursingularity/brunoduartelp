@@ -58,8 +58,8 @@ function Home() {
     const touchStartX = useRef(null);
 
     const videos = [
-        './imagens/video2.mp4',
         './imagens/video1.mp4',
+        './imagens/video2.mp4',
         './imagens/video3.mp4'
     ];
 
@@ -331,7 +331,7 @@ function Home() {
                                         loop
                                         muted
                                         playsInline
-                                        className={`w-full h-full absolute top-0 object-cover scale-[100%] brightness-[25%] transition-opacity duration-500 ${index === currentVideo ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
+                                        className={`w-full h-full absolute top-0 object-cover scale-[100%] brightness-[45%] transition-opacity duration-500 ${index === currentVideo ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
                                     />
                                 ))}
                                 <div className='absolute z-10 bottom-0 w-full p-3'>
