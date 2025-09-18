@@ -383,102 +383,29 @@ function Home() {
                         </div>
                     </div>
 
-                    <div>
-                        <p className='text-[26px] font-medium text-center'>Planos disponíveis</p>
+                    <div className="text-center relative">
+                        <p className='text-[30px] font-medium text-center pb-4'>Planos disponíveis</p>
+                        <hr className='border-1 border-neutral-700' />
+                        <p className="text-[18px] font-light mt-4 mb-4">
+                            <span className="text-yellow-400 font-medium">⚠️ Atenção:</span> após finalizar a compra, <span className="font-medium text-red-500">não feche a página.</span> Você será redirecionado para responder a anamnese.
+                        </p>
+                        <hr className='border-1 border-neutral-700' />
                         <div className='space-y-4 mt-6 lg:flex lg:space-x-4 lg:justify-center lg:space-y-0'>
                             <div className='border p-2 border-bgreen bg-neutral-800 rounded-[16px] text-center overflow-hidden lg:w-[370px] max-w-[470px] mx-auto lg:mx-0'>
-                                <div className='bg-bgreen rounded-[8px] p-2 space-y-2'>
-                                    <div className='flex justify-between text-black'>
-                                        <p className='text-[21px] font-medium pl-1'>Trimestral</p>
-                                        <p className='bg-neutral-700 text-white rounded-[6px] font-regular flex justify-center items-center h-[26px] px-2 text-[11px]'>Mais vendido</p>
-                                    </div>
-                                    <p className='font-medium text-[27px] text-black text-left ml-1'>R$129,99 <span className='text-[17px] text-neutral-800 font-regular'>/mês</span></p>
-                                    <div className='text-center pt-3'>
-                                        <button className='buttonHover font-medium bg-neutral-600 p-3 w-full rounded-[6px] text-[18px]'>Quero esse plano</button>
-                                    </div>
-                                </div>
-                                <div className='space-y-2 p-3 text-neutral-200 text-left'>
-                                    <div className='flex items-center space-x-2'>
-                                        <img className="w-[30px]" src="./imagens/check.png" />
-                                        <p className='leading-[20px]'>App de acesso aos treinos</p>
-                                    </div>
-                                    <hr className='border-1 border-neutral-700' />
-                                    <div className='flex items-center space-x-2'>
-                                        <img className="w-[30px]" src="./imagens/check.png" />
-                                        <p className='leading-[20px]'>Planilha personalizada de Treinos</p>
-                                    </div>
-                                    <hr className='border-1 border-neutral-700' />
-                                    <div className='flex items-center space-x-2'>
-                                        <img className="w-[30px]" src="./imagens/check.png" />
-                                        <p className='leading-[20px]'>Vídeos dos exercícios</p>
-                                    </div>
-                                    <hr className='border-1 border-neutral-700' />
-                                    <div className='flex items-center space-x-2'>
-                                        <img className="w-[30px]" src="./imagens/check.png" />
-                                        <p className='leading-[20px]'>2 treinos trocados a cada 45 dias</p>
-                                    </div>
-                                    <hr className='border-1 border-neutral-700' />
-                                    <div className='flex items-center space-x-2'>
-                                        <img className="w-[30px]" src="./imagens/check.png" />
-                                        <p className='leading-[20px]'>Suporte diretamente comigo via whatsapp.</p>
-                                    </div>
-                                    <hr className='border-1 border-neutral-700' />
-                                    <div className='flex items-center space-x-2'>
-                                        <img className="w-[30px]" src="./imagens/close.png" />
-                                        <p className='leading-[20px]'>E-book completo de emagrecimento</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className='p-2 bg-neutral-800 rounded-[16px] text-center overflow-hidden lg:w-[370px] max-w-[470px] mx-auto lg:mx-0'>
-                                <div className='bg-neutral-700 rounded-[8px] p-2 space-y-2'>
-                                    <div className='flex justify-between'>
-                                        <p className='text-[21px] font-medium pl-1'>Semestral</p>
-                                    </div>
-                                    <p className='font-medium text-[27px] text-left ml-1'>R$107,99 <span className='text-[17px] font-regular text-neutral-300'>/mês</span></p>
-                                    <div className='text-center pt-3'>
-                                        <button className='buttonHover font-medium bg-verde text-black p-3 w-full rounded-[6px] text-[18px]'>Quero esse plano</button>
-                                    </div>
-                                </div>
-                                <div className='space-y-2 p-3 text-neutral-200 text-left'>
-                                    <div className='flex items-center space-x-2'>
-                                        <img className="w-[30px]" src="./imagens/check.png" />
-                                        <p className='leading-[20px]'>App de acesso aos treinos</p>
-                                    </div>
-                                    <hr className='border-1 border-neutral-700' />
-                                    <div className='flex items-center space-x-2'>
-                                        <img className="w-[30px]" src="./imagens/check.png" />
-                                        <p className='leading-[20px]'>Planilha personalizada de Treinos</p>
-                                    </div>
-                                    <hr className='border-1 border-neutral-700' />
-                                    <div className='flex items-center space-x-2'>
-                                        <img className="w-[30px]" src="./imagens/check.png" />
-                                        <p className='leading-[20px]'>Vídeos dos exercícios</p>
-                                    </div>
-                                    <hr className='border-1 border-neutral-700' />
-                                    <div className='flex items-center space-x-2'>
-                                        <img className="w-[30px]" src="./imagens/check.png" />
-                                        <p className='leading-[20px]'><span className="font-medium text-white">4 treinos</span> trocados a cada 45 dias</p>
-                                    </div>
-                                    <hr className='border-1 border-neutral-700' />
-                                    <div className='flex items-center space-x-2'>
-                                        <img className="w-[30px]" src="./imagens/check.png" />
-                                        <p className='leading-[20px]'>Suporte diretamente comigo via whatsapp.</p>
-                                    </div>
-                                    <hr className='border-1 border-neutral-700' />
-                                    <div className='flex items-center space-x-2'>
-                                        <img className="w-[30px]" src="./imagens/check.png" />
-                                        <p className='leading-[20px]'>E-book completo de emagrecimento</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className='p-2 bg-neutral-800 rounded-[16px] text-center overflow-hidden lg:w-[370px] max-w-[470px] mx-auto lg:mx-0'>
-                                <div className='bg-neutral-700 rounded-[8px] p-2 space-y-2'>
+                                <div className='bg-bgreen rounded-[8px] p-2 space-y-2 text-black'>
                                     <div className='flex justify-between'>
                                         <p className='text-[21px] font-medium pl-1'>Anual</p>
+                                        <p className='bg-neutral-700 text-white rounded-[6px] font-regular flex justify-center items-center h-[26px] px-2 text-[11px]'>Mais vendido</p>
                                     </div>
-                                    <p className='font-medium text-[27px] text-left ml-1'>R$95,99 <span className='text-[17px] font-regular text-neutral-300'>/mês</span></p>
-                                    <div className='text-center pt-3'>
-                                        <button className='buttonHover font-medium bg-verde text-black p-3 w-full rounded-[6px] text-[18px]'>Quero esse plano</button>
+                                    <p className='font-medium text-[27px] text-left ml-1'>R$97,70 <span className='text-[17px] font-regular'>/mês</span></p>
+                                    <div className='text-center pt-3 text-white'>
+                                        <a
+                                            href="https://buy.stripe.com/aFa00ifnF7dzda6bMEfQI0E"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            <button className='buttonHover font-medium bg-neutral-600 p-3 w-full rounded-[6px] text-[18px]'>Quero esse plano</button>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className='space-y-2 p-3 text-neutral-200 text-left'>
@@ -509,7 +436,118 @@ function Home() {
                                     <hr className='border-1 border-neutral-700' />
                                     <div className='flex items-center space-x-2'>
                                         <img className="w-[30px]" src="./imagens/check.png" />
-                                        <p className='leading-[20px]'>E-book completo de emagrecimento</p>
+                                        <p className='leading-[20px]'>E-book completo de acordo com o seu objetivo</p>
+                                    </div>
+                                    <hr className='border-1 border-neutral-700' />
+                                    <div className='flex items-center space-x-2'>
+                                        <img className="w-[30px]" src="./imagens/check.png" />
+                                        <p className='leading-[20px]'>Acesso ao grupo VIP - Time Bruno Duarte</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='p-2 bg-neutral-800 rounded-[16px] text-center overflow-hidden lg:w-[370px] max-w-[470px] mx-auto lg:mx-0'>
+                                <div className='bg-neutral-700 rounded-[8px] p-2 space-y-2'>
+                                    <div className='flex justify-between'>
+                                        <p className='text-[21px] font-medium pl-1'>Semestral</p>
+                                    </div>
+                                    <p className='font-medium text-[27px] text-left ml-1'>R$107,70 <span className='text-[17px] font-regular text-neutral-300'>/mês</span></p>
+                                    <div className='text-center pt-3'>
+                                        <a 
+                                            href="https://buy.stripe.com/eVqbJ08Zh55r4DA180fQI0F"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            <button className='buttonHover font-medium bg-verde text-black p-3 w-full rounded-[6px] text-[18px]'>Quero esse plano</button>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div className='space-y-2 p-3 text-neutral-200 text-left'>
+                                    <div className='flex items-center space-x-2'>
+                                        <img className="w-[30px]" src="./imagens/check.png" />
+                                        <p className='leading-[20px]'>App de acesso aos treinos</p>
+                                    </div>
+                                    <hr className='border-1 border-neutral-700' />
+                                    <div className='flex items-center space-x-2'>
+                                        <img className="w-[30px]" src="./imagens/check.png" />
+                                        <p className='leading-[20px]'>Planilha personalizada de Treinos</p>
+                                    </div>
+                                    <hr className='border-1 border-neutral-700' />
+                                    <div className='flex items-center space-x-2'>
+                                        <img className="w-[30px]" src="./imagens/check.png" />
+                                        <p className='leading-[20px]'>Vídeos dos exercícios</p>
+                                    </div>
+                                    <hr className='border-1 border-neutral-700' />
+                                    <div className='flex items-center space-x-2'>
+                                        <img className="w-[30px]" src="./imagens/check.png" />
+                                        <p className='leading-[20px]'><span className="font-medium text-white">4 treinos</span> trocados a cada 45 dias</p>
+                                    </div>
+                                    <hr className='border-1 border-neutral-700' />
+                                    <div className='flex items-center space-x-2'>
+                                        <img className="w-[30px]" src="./imagens/check.png" />
+                                        <p className='leading-[20px]'>Suporte diretamente comigo via whatsapp.</p>
+                                    </div>
+                                    <hr className='border-1 border-neutral-700' />
+                                    <div className='flex items-center space-x-2'>
+                                        <img className="w-[30px]" src="./imagens/check.png" />
+                                        <p className='leading-[20px]'>E-book completo de acordo com o seu objetivo</p>
+                                    </div>
+                                    <hr className='border-1 border-neutral-700' />
+                                    <div className='flex items-center space-x-2'>
+                                        <img className="w-[30px]" src="./imagens/close.png" />
+                                        <p className='leading-[20px]'>Acesso ao grupo VIP - Time Bruno Duarte</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='p-2 bg-neutral-800 rounded-[16px] text-center overflow-hidden lg:w-[370px] max-w-[470px] mx-auto lg:mx-0'>
+                                <div className='bg-neutral-700 rounded-[8px] p-2 space-y-2'>
+                                    <div className='flex justify-between'>
+                                        <p className='text-[21px] font-medium pl-1'>Trimestral</p>
+                                    </div>
+                                    <p className='font-medium text-[27px] text-left ml-1'>R$127,70 <span className='text-[17px] font-regular text-neutral-300'>/mês</span></p>
+                                    <div className='text-center pt-3'>
+                                        <a
+                                            href="https://buy.stripe.com/9B6eVc5N57dzgmicQIfQI0G"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            <button className='buttonHover font-medium bg-verde text-black p-3 w-full rounded-[6px] text-[18px]'>Quero esse plano</button>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div className='space-y-2 p-3 text-neutral-200 text-left'>
+                                    <div className='flex items-center space-x-2'>
+                                        <img className="w-[30px]" src="./imagens/check.png" />
+                                        <p className='leading-[20px]'>App de acesso aos treinos</p>
+                                    </div>
+                                    <hr className='border-1 border-neutral-700' />
+                                    <div className='flex items-center space-x-2'>
+                                        <img className="w-[30px]" src="./imagens/check.png" />
+                                        <p className='leading-[20px]'>Planilha personalizada de Treinos</p>
+                                    </div>
+                                    <hr className='border-1 border-neutral-700' />
+                                    <div className='flex items-center space-x-2'>
+                                        <img className="w-[30px]" src="./imagens/check.png" />
+                                        <p className='leading-[20px]'>Vídeos dos exercícios</p>
+                                    </div>
+                                    <hr className='border-1 border-neutral-700' />
+                                    <div className='flex items-center space-x-2'>
+                                        <img className="w-[30px]" src="./imagens/check.png" />
+                                        <p className='leading-[20px]'>2 treinos trocados a cada 45 dias</p>
+                                    </div>
+                                    <hr className='border-1 border-neutral-700' />
+                                    <div className='flex items-center space-x-2'>
+                                        <img className="w-[30px]" src="./imagens/check.png" />
+                                        <p className='leading-[20px]'>Suporte diretamente comigo via whatsapp.</p>
+                                    </div>
+                                    <hr className='border-1 border-neutral-700' />
+                                    <div className='flex items-center space-x-2'>
+                                        <img className="w-[30px]" src="./imagens/close.png" />
+                                        <p className='leading-[20px]'>E-book completo de acordo com o seu objetivo</p>
+                                    </div>
+                                    <hr className='border-1 border-neutral-700' />
+                                    <div className='flex items-center space-x-2'>
+                                        <img className="w-[30px]" src="./imagens/close.png" />
+                                        <p className='leading-[20px]'>Acesso ao grupo VIP - Time Bruno Duarte</p>
                                     </div>
                                 </div>
                             </div>
