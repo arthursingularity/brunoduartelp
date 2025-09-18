@@ -179,55 +179,59 @@ function Home() {
                     </div>
 
                     <div className="flex justify-center">
-                        <div className="DivAntesDepois text-center mt-10 relative rounded-[16px] bg-neutral-800 max-w-[600px]">
-                            <p className="text-[30px] font-medium -mb-3 pt-5 text-white">Resultados <span className="text-bgreen">reais</span></p>
+                        <div className="DivAntesDepois text-center mt-10 relative rounded-[16px] bg-neutral-800 max-w-[600px] mx-auto">
+                            <p className="text-[30px] font-medium -mb-3 pt-5 text-white">
+                                Resultados <span className="text-bgreen">reais</span>
+                            </p>
                             <p className="text-[26.5px] font-light mb-4 text-white">das minhas alunas</p>
-                            <div className="relative max-w-[700px] mx-auto flex items-center justify-center">
+
+                            <div className="relative flex items-center justify-center">
                                 {/* Botão voltar */}
                                 <button
                                     onClick={prevSlide}
-                                    className="absolute left-0 z-20 bg-neutral-600 ml-1.5 buttonHover text-white rounded p-0.5 mb-14"
+                                    className="absolute left-0 z-20 bg-neutral-600 ml-1.5 buttonHover text-white rounded p-0.5 mb-14 sm:mb-0"
                                 >
-                                    <img className="w-[30px]" src="./imagens/setaesq.png"/>
+                                    <img className="w-[25px]" src="./imagens/setaesq.png" />
                                 </button>
 
                                 {/* Imagens Antes e Depois */}
-                                <div className="overflow-hidden rounded-[16px] bg-neutral-800 p-3">
-                                    <div className="flex space-x-4">
-                                        <div className="w-[300px] h-[400px] relative">
-                                            <img
-                                                src={current.antes}
-                                                alt={`Antes de ${current.nome}`}
-                                                className="w-full h-full object-cover rounded-[8px]"
-                                            />
-                                            <p className="absolute bottom-0 left-0 w-full bg-neutral-600 text-white text-center py-1 rounded-b-[6px]">Antes</p>
-                                        </div>
-                                        <div className="w-[300px] h-[400px] relative">
-                                            <img
-                                                src={current.depois}
-                                                alt={`Depois de ${current.nome}`}
-                                                className="w-full h-full object-cover rounded-[8px]"
-                                            />
-                                            <p className="absolute bottom-0 left-0 w-full bg-neutral-600 text-white text-center py-1 rounded-b-[6px]">Depois</p>
-                                        </div>
+                                <div className="flex flex-row flex-wrap justify-center gap-4 overflow-hidden rounded-[16px] bg-neutral-800 p-3">
+                                    <div className="w-[45%] max-w-[400px] h-[auto] aspect-[2/4] relative">
+                                        <img
+                                            src={current.antes}
+                                            alt={`Antes de ${current.nome}`}
+                                            className="w-full h-full object-cover rounded-[8px]"
+                                        />
+                                        <p className="absolute bottom-0 left-0 w-full bg-neutral-600 text-white text-center py-1 rounded-b-[6px]">Antes</p>
                                     </div>
-                                    <div className='text-center mt-4'>
-                                        <button className='buttonHover bg-verde p-3 w-[80%] max-w-[400px] rounded-[8px] text-black text-[18px] font-medium'>Quero transformar o meu corpo</button>
+                                    <div className="w-[45%] max-w-[400px] h-[auto] aspect-[3/4] relative">
+                                        <img
+                                            src={current.depois}
+                                            alt={`Depois de ${current.nome}`}
+                                            className="w-full h-full object-cover rounded-[8px]"
+                                        />
+                                        <p className="absolute bottom-0 left-0 w-full bg-neutral-600 text-white text-center py-1 rounded-b-[6px]">Depois</p>
                                     </div>
                                 </div>
 
                                 {/* Botão avançar */}
                                 <button
                                     onClick={nextSlide}
-                                    className="absolute right-0 z-20 mr-1.5 bg-neutral-600 buttonHover text-white rounded p-0.5 mb-14"
+                                    className="absolute right-0 z-20 mr-1.5 bg-neutral-600 buttonHover text-white rounded p-0.5 mb-14 sm:mb-0"
                                 >
-                                    <img className="w-[30px]" src="./imagens/setadir.png"/>
+                                    <img className="w-[25px]" src="./imagens/setadir.png" />
+                                </button>
+                            </div>
+
+                            {/* Botão principal */}
+                            <div className='text-center mt-4 pb-6'>
+                                <button className='buttonHover bg-verde p-3 w-[80%] max-w-[400px] rounded-[8px] text-black text-[18px] font-medium'>
+                                    Quero transformar o meu corpo
                                 </button>
                             </div>
                         </div>
+
                     </div>
-
-
 
                     <div className='pb-8'>
                         <div className='leading-[30px]'>
