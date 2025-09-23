@@ -122,7 +122,7 @@ function Home() {
                         <div className='flex justify-center mt-7'>
                             <video
                                 className="bg-neutral-900 rounded-lg w-[900px] border border-neutral-600"
-                                src="https://res.cloudinary.com/dgtnur9y1/video/upload/v1758150449/0904_fqzqe9.mp4"
+                                src="https://res.cloudinary.com/dsgkc7epl/video/upload/v1758667599/V%C3%8DDEO_SITE_kbnkrk.mp4"
                                 poster="./imagens/thumb.JPEG"
                                 controls
                                 playsInline
