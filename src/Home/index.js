@@ -1,15 +1,15 @@
 import { useState, useRef, React } from 'react';
 
 const slides = [
-    { nome: 'foto1', img: '/imagens/foto5.jpg' },
-    { nome: 'foto2', img: '/imagens/foto2.jpg' },
-    { nome: 'foto3', img: '/imagens/foto9.jpg' },
-    { nome: 'foto4', img: '/imagens/foto1.jpg' },
-    { nome: 'foto5', img: '/imagens/foto6.jpg' },
-    { nome: 'foto6', img: '/imagens/foto4.jpg' },
+    { nome: 'foto1', img: '/imagens/foto1.jpeg' },
+    { nome: 'foto2', img: '/imagens/foto2.jpeg' },
+    { nome: 'foto3', img: '/imagens/foto3.jpg' },
+    { nome: 'foto4', img: '/imagens/foto4.jpg' },
+    { nome: 'foto5', img: '/imagens/foto5.jpg' },
+    { nome: 'foto6', img: '/imagens/foto6.jpg' },
     { nome: 'foto7', img: '/imagens/foto7.jpg' },
     { nome: 'foto8', img: '/imagens/foto8.jpg' },
-    { nome: 'foto9', img: '/imagens/foto1.jpg' },
+    { nome: 'foto9', img: '/imagens/foto9.jpg' },
 ];
 
 const prints = [
