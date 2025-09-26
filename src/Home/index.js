@@ -1,31 +1,15 @@
 import { useState, useRef, React } from 'react';
 
 const slides = [
-    {
-        nome: 'p3',
-        antes: '/imagens/p3-1.jpeg',
-        depois: '/imagens/p3-2.jpeg',
-    },
-    {
-        nome: 'p1',
-        antes: '/imagens/p1-1.jpeg',
-        depois: '/imagens/p1-2.jpeg',
-    },
-    {
-        nome: 'p2',
-        antes: '/imagens/p2-1.jpeg',
-        depois: '/imagens/p2-2.jpeg',
-    },
-    {
-        nome: 'p4',
-        antes: '/imagens/p4-1.jpeg',
-        depois: '/imagens/p4-2.jpeg',
-    },
-    {
-        nome: 'p5',
-        antes: '/imagens/p5-1.jpeg',
-        depois: '/imagens/p5-2.jpeg',
-    },
+    { nome: 'foto5', img: '/imagens/foto1.jpg' },
+    { nome: 'foto2', img: '/imagens/foto2.jpg' },
+    { nome: 'foto9', img: '/imagens/foto3.jpg' },
+    { nome: 'foto1', img: '/imagens/foto4.jpg' },
+    { nome: 'foto6', img: '/imagens/foto5.jpg' },
+    { nome: 'foto4', img: '/imagens/foto6.jpg' },
+    { nome: 'foto7', img: '/imagens/foto7.jpg' },
+    { nome: 'foto8', img: '/imagens/foto8.jpg' },
+    { nome: 'foto1', img: '/imagens/foto9.jpg' },
 ];
 
 const prints = [
@@ -97,8 +81,8 @@ function Home() {
         setCurrentIndex2((prev) => (prev - 1 + prints.length) % prints.length);
     };
 
-    const current2 = prints[currentIndex2];
     const current = slides[currentIndex];
+    const current2 = prints[currentIndex2];
 
     return (
         <div>
@@ -118,7 +102,7 @@ function Home() {
                         <div className='flex justify-center left-[15px]'>
                             <img src='./imagens/logo.png' className='w-[130px]' />
                         </div>
-                        <p className='text-[21px] font-psemibold mt-5'>Você vai se olhar no espelho e se sentir <span className='text-bgreen'>mais confiante, segura e feliz</span>, por dentro e por fora.</p>
+                        <p className='text-[21px] font-psemibold mt-5'>Você vai se olhar no espelho e se sentir <span className='text-bgreen'>mais confiante, seguro(a) e feliz</span>, por dentro e por fora.</p>
                         <div className='flex justify-center mt-7'>
                             <video
                                 className="bg-neutral-900 rounded-lg w-[900px] border border-neutral-600"
@@ -128,7 +112,7 @@ function Home() {
                                 playsInline
                             />
                         </div>
-                        <p className='mt-7'>💪 Junte-se a mais de 200 alunas nessa jornada de saúde e autoestima.</p>
+                        <p className='mt-7'>💪 Junte-se a mais de 300 alunos(a) nessa jornada de saúde e autoestima.</p>
                     </div>
                 </div>
 
@@ -199,23 +183,12 @@ function Home() {
                                 </button>
 
                                 {/* Imagens Antes e Depois */}
-                                <div className="flex flex-row flex-wrap justify-center gap-4 overflow-hidden rounded-[16px] bg-neutral-800 p-3">
-                                    <div className="w-[45%] max-w-[400px] h-[auto] aspect-[2/4] relative">
-                                        <img
-                                            src={current.antes}
-                                            alt={`Antes de ${current.nome}`}
-                                            className="w-full h-full object-cover rounded-[8px]"
-                                        />
-                                        <p className="absolute bottom-0 left-0 w-full bg-neutral-600 text-white text-center py-1 rounded-b-[6px]">Antes</p>
-                                    </div>
-                                    <div className="w-[45%] max-w-[400px] h-[auto] aspect-[3/4] relative">
-                                        <img
-                                            src={current.depois}
-                                            alt={`Depois de ${current.nome}`}
-                                            className="w-full h-full object-cover rounded-[8px]"
-                                        />
-                                        <p className="absolute bottom-0 left-0 w-full bg-neutral-600 text-white text-center py-1 rounded-b-[6px]">Depois</p>
-                                    </div>
+                                <div className="w-[90%] max-w-[500px] h-auto relative">
+                                    <img
+                                        src={current.img}
+                                        alt={`Resultado ${current.nome}`}
+                                        className="w-full h-full object-cover rounded-[8px]"
+                                    />
                                 </div>
 
                                 {/* Botão avançar */}
@@ -234,7 +207,6 @@ function Home() {
                                 </button>
                             </div>
                         </div>
-
                     </div>
 
                     <div className='pb-8'>
@@ -456,7 +428,7 @@ function Home() {
                                     </div>
                                     <p className='font-medium text-[27px] text-left ml-1'>R$107,70 <span className='text-[17px] font-regular text-neutral-300'>/mês</span></p>
                                     <div className='text-center pt-3'>
-                                        <a 
+                                        <a
                                             href="https://buy.stripe.com/eVqbJ08Zh55r4DA180fQI0F"
                                             target="_blank"
                                             rel="noopener noreferrer"
