@@ -112,7 +112,7 @@ function Home() {
                                 playsInline
                             />
                         </div>
-                        <p className='mt-7'>💪 Junte-se a mais de 300 alunos(a) nessa jornada de saúde e autoestima.</p>
+                        <p className='mt-7'>💪 Junte-se a mais de 300 alunos nessa jornada de saúde e autoestima.</p>
                     </div>
                 </div>
 
