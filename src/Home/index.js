@@ -40,6 +40,11 @@ function Home() {
     const [currentIndex2, setCurrentIndex2] = useState(0);
     const [currentVideo, setCurrentVideo] = useState(0);
     const touchStartX = useRef(null);
+    const planosRef = useRef(null);
+
+    const scrollToPlanos = () => {
+        planosRef.current?.scrollIntoView({ behavior: "smooth" });
+    };
 
     const videos = [
         './imagens/video1.mp4',
@@ -117,7 +122,9 @@ function Home() {
                 </div>
 
                 <div className='text-center mt-4'>
-                    <button className='buttonHover bg-verde p-3 w-[80%] max-w-[400px] rounded-[8px] text-black text-[18px] font-medium'>Quero resultados reais</button>
+                    <button
+                        onClick={scrollToPlanos}
+                        className='buttonHover bg-verde p-3 w-[80%] max-w-[400px] rounded-[8px] text-black text-[18px] font-medium'>Quero resultados reais</button>
                 </div>
 
                 <div className='space-y-12 text-white p-3 mt-10'>
@@ -162,7 +169,12 @@ function Home() {
                             </div>
                         </div>
                         <div className='text-center mt-8'>
-                            <button className='buttonHover bg-verde p-3 w-[80%] max-w-[400px] rounded-[8px] text-black text-[18px] font-medium'>Quero uma vaga</button>
+                            <button
+                                onClick={scrollToPlanos}
+                                className='buttonHover bg-verde p-3 w-[80%] max-w-[400px] rounded-[8px] text-black text-[18px] font-medium'
+                                >
+                                    Quero uma vaga
+                            </button>
                         </div>
                     </div>
 
@@ -202,7 +214,10 @@ function Home() {
 
                             {/* Botão principal */}
                             <div className='text-center mt-4 pb-6'>
-                                <button className='buttonHover bg-verde p-3 w-[80%] max-w-[400px] rounded-[8px] text-black text-[18px] font-medium'>
+                                <button
+                                    onClick={scrollToPlanos}
+                                    className='buttonHover bg-verde p-3 w-[80%] max-w-[400px] rounded-[8px] text-black text-[18px] font-medium'
+                                >
                                     Quero transformar o meu corpo
                                 </button>
                             </div>
@@ -359,7 +374,7 @@ function Home() {
                         </div>
                     </div>
 
-                    <div className="text-center relative">
+                    <div ref={planosRef} className="text-center relative">
                         <p className='text-[30px] font-medium text-center pb-4'>Planos disponíveis</p>
                         <hr className='border-1 border-neutral-700' />
                         <p className="text-[18px] font-light mt-4 mb-4">
@@ -419,7 +434,9 @@ function Home() {
                                         <img className="w-[30px]" src="./imagens/check.png" />
                                         <p className='leading-[20px]'>Acesso ao grupo VIP - Time Bruno Duarte</p>
                                     </div>
+                                    <hr className='border-1 border-neutral-700' />
                                 </div>
+                                <p className="font-extralight text-[14px] text-neutral-100 pb-1">Em planos anual e semestral, o cancelamento antecipado está sujeito à taxa correspondente a uma mensalidade.</p>
                             </div>
                             <div className='p-2 bg-neutral-800 rounded-[16px] text-center overflow-hidden lg:w-[370px] max-w-[470px] mx-auto lg:mx-0'>
                                 <div className='bg-neutral-700 rounded-[8px] p-2 space-y-2'>
@@ -472,7 +489,9 @@ function Home() {
                                         <img className="w-[30px]" src="./imagens/close.png" />
                                         <p className='leading-[20px]'>Acesso ao grupo VIP - Time Bruno Duarte</p>
                                     </div>
+                                    <hr className='border-1 border-neutral-700' />
                                 </div>
+                                <p className="font-extralight text-[14px] text-neutral-100 pb-1">Em planos anual e semestral, o cancelamento antecipado está sujeito à taxa correspondente a uma mensalidade.</p>
                             </div>
                             <div className='p-2 bg-neutral-800 rounded-[16px] text-center overflow-hidden lg:w-[370px] max-w-[470px] mx-auto lg:mx-0'>
                                 <div className='bg-neutral-700 rounded-[8px] p-2 space-y-2'>
@@ -577,7 +596,11 @@ function Home() {
                             <p>Clique no botão abaixo e comece hoje a construção da sua melhor versão 👇</p>
                         </div>
                         <div className='text-center mt-6'>
-                            <button className='buttonHover bg-verde p-4 w-full rounded-[8px] max-w-[400px] text-black text-[20px] font-psemibold'>Quero mudar de vida</button>
+                            <button
+                                onClick={scrollToPlanos}
+                                className='buttonHover bg-verde p-4 w-full rounded-[8px] max-w-[400px] text-black text-[20px] font-psemibold'
+                            >Quero mudar de vida
+                            </button>
                         </div>
                     </div>
                 </div>
