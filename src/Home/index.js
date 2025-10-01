@@ -322,23 +322,18 @@ function Home() {
                                     />
                                 ))}
                                 <div className='absolute z-10 bottom-0 w-full p-3'>
-                                    <div className='pb-5 space-y-1'>
+                                    <div className='space-y-1'>
                                         <p className='font-medium text-[24px] text-bgreen'>Dicas de treino</p>
                                         <p className='leading-[20px] text-neutral-300'>Vídeos explicativos com dicas de treino para melhorar as suas rotinas.</p>
                                     </div>
-
-                                    <div className='flex justify-center'>
-                                        <button className='buttonHover bg-bgreen text-black rounded-[8px] p-2 font-regular w-full'>Saiba mais</button>
-                                    </div>
-
                                     <div className='barrinha flex justify-center mt-3'>
-                                        <div className='h-[15px] p-1.5 px-10 bg-neutral-700 rounded-full flex justify-center items-center space-x-1.5'>
+                                        <div className='h-[15px] p-1.5 px-10 bg-bgreen rounded-full flex justify-center items-center space-x-1.5'>
                                             {videos.map((_, index) => (
                                                 <div
                                                     key={index}
                                                     className={`rounded-full transition-all duration-300 ${index === currentVideo
-                                                        ? 'bg-white w-[17px] h-[7px]'
-                                                        : 'bg-neutral-400 w-[7px] h-[7px]'
+                                                        ? 'bg-black w-[17px] h-[7px]'
+                                                        : 'bg-black w-[7px] h-[7px]'
                                                         }`}
                                                 ></div>
                                             ))}
