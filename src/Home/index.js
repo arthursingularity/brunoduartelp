@@ -431,7 +431,7 @@ function Home() {
                                     </div>
                                     <hr className='border-1 border-neutral-700' />
                                 </div>
-                                <p className="font-extralight text-[14px] text-neutral-100 pb-1">Em planos anual e semestral, o cancelamento antecipado está sujeito à taxa correspondente a uma mensalidade.</p>
+                                <p className="font-extralight text-[12.5px] text-neutral-100 pb-1">Em planos anual e semestral, o cancelamento antecipado está sujeito à taxa correspondente a uma mensalidade.</p>
                             </div>
                             <div className='p-2 bg-neutral-800 rounded-[16px] text-center overflow-hidden lg:w-[370px] max-w-[470px] mx-auto lg:mx-0'>
                                 <div className='bg-neutral-700 rounded-[8px] p-2 space-y-2'>
@@ -486,7 +486,7 @@ function Home() {
                                     </div>
                                     <hr className='border-1 border-neutral-700' />
                                 </div>
-                                <p className="font-extralight text-[14px] text-neutral-100 pb-1">Em planos anual e semestral, o cancelamento antecipado está sujeito à taxa correspondente a uma mensalidade.</p>
+                                <p className="font-extralight text-[12.5px] text-neutral-100 pb-1">Em planos anual e semestral, o cancelamento antecipado está sujeito à taxa correspondente a uma mensalidade.</p>
                             </div>
                             <div className='p-2 bg-neutral-800 rounded-[16px] text-center overflow-hidden lg:w-[370px] max-w-[470px] mx-auto lg:mx-0'>
                                 <div className='bg-neutral-700 rounded-[8px] p-2 space-y-2'>
