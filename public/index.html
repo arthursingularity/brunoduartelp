@@ -17,5 +17,21 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <script>
+      const allowed = ["pt-BR", "pt"];
+      const lang = navigator.language || navigator.userLanguage;
+    
+      if (!allowed.includes(lang)) {
+        // Impede o React de renderizar
+        window.__REACT_DEVTOOLS_GLOBAL_HOOK__ = {};
+    
+        // Bloqueia imediatamente
+        document.write(`
+          <div style="text-align:center;margin-top:50px;font-family:sans-serif">
+            <h1>Page blocked</h1>
+          </div>
+        `);
+      }
+    </script>
   </body>
 </html>
